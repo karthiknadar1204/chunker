@@ -4,7 +4,6 @@ A flexible text and data chunking library for vector databases and LLMs. Similar
 
 ## Installation
 
-
 * bash
 
 npm install @yourusername/vector-chunker
@@ -12,7 +11,7 @@ npm install @yourusername/vector-chunker
 ## Usage
 
 ```typescript
-import { chunk } from '@yourusername/vector-chunker';
+import { chunk } from 'vector-chunker';
 
 // Text chunking
 const textChunks = chunk('Your long text...', {
